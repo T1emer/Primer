@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
  findViewById<Button>(R.id.button).setOnClickListener {
 
 
+
      val userLogin = findViewById<EditText>(R.id.login).text.toString()
 
      if (userLogin == trueLogin) {
